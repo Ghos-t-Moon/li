@@ -1,0 +1,98 @@
+body{
+	background-color: rgb(246, 246, 246);
+}
+.top img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+/*主体部分*/
+.p2_cn{
+	position: relative;
+}
+.dh_bg{
+	background: #c80113;
+	margin-top: 90px;
+	height: 680px;
+}
+.dh_a1{
+	left: 90px;
+}
+/*将不同类名下的第二个img选择出来*/
+.dh_a1 img:nth-child(2),
+.dh_a2 img:nth-child(2){
+	display: block;
+	margin: 40px auto 30px auto;
+}
+/*“主题画展”模块样式*/
+.dh_a1,
+.dh_a2{
+	width: 480px;
+	position: absolute;
+	top: 25px;
+	background: #fff;
+	text-align: center;
+	font-size: 26px;
+	transition: all .7s;
+	background-color: #c80113;
+	border: 3px solid gainsboro;
+	
+}
+.dh_a1 img,
+.dh_a2 img{
+	width: 240px;
+	height: 310px;
+}
+/*“主题画展”文本模块样式*/
+.dh_bg span{
+	display: block;
+	width: 340px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	color: white;
+}
+.dh_a2{
+	left: 630px;
+}
+.dh_bg p{
+	font-size: 26px;
+	display: block;
+	width: 1020px;
+	margin: 0 auto;
+	color: #fff;
+	line-height: 50px;
+	position: absolute;
+	bottom: 50px;
+	left: 0;
+	right: 0;
+}
+.dh_bg .author{
+	width: 400px;
+	margin-left: 900px;
+	bottom: 20px;
+}
+/*鼠标移动效果*/
+.dh_a1:hover,
+.dh_a2:hover{
+	/*transform: scaleX(1.05);
+	transform: scaleY(1.05);*/
+	transform: scale(1.05);
+	transform: all 1s ease 0s;
+	overflow: auto;
+}
+/*入党誓词容器及文本样式*/
+.sc{
+	margin: 50px auto 30px auto;
+	text-align: center;
+}
+.p4_cn{
+	background: url(../images/bg04.png)no-repeat;
+	height: 543px;
+	margin: 0 auto;
+}
+.p4_cn p{
+	font-size: 26px;
+	width: 770px;
+	line-height: 66px;
+	margin: 90px auto 0 auto;
+}

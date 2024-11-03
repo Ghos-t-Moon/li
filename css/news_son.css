@@ -1,0 +1,33 @@
+/* 新闻容器介绍 */
+.news{
+	width: 800px;
+	margin: 30px auto;
+}
+/* 新闻标题样式 */
+.news h1{
+	font-size: 38px;
+	font-weight: 500;
+	line-height: 46px;
+	margin: 5px auto 15px auto;
+	text-align: center;
+}
+.news_header{
+	text-align: center;
+	margin: 10px auto;
+}
+/* 新闻主体文件样式 */
+p{
+	margin-top: 23px;
+	text-align: justify;
+	font-size: 20px;
+	line-height: 38px;
+}
+/* 图片居中 */
+.lgew01{
+	text-align: center;
+}
+/* 责任编辑样式 */
+.edit_cf{
+	font-size: 16px;
+	text-align: right;
+}

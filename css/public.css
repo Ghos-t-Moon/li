@@ -1,0 +1,118 @@
+.w1200{
+    width: 1300px;
+    overflow: hidden;
+}
+.w1000{
+    width: 1000px;
+    overflow: hidden;
+}
+.fr{
+    float: right;
+}
+.fl{
+	float: left;
+}
+.main{
+	width: 100%;
+	min-width: 1280px;
+}
+.ph_logo{
+	width: 100%;
+	height: 150px;
+	background-color: #ab0202;
+	border-bottom: 2px solid #FFDCAB;
+}
+.ph_logo .logo{
+	width: 50%;
+	height: 150px;
+	float: left;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	cursor: pointer;
+}
+.ph_top a{
+	display: block;
+	width: 100%;
+	height: 300px;
+	background:url(../images/标题.jpg)no-repeat ;
+	background-position: 0 -50px;
+	background-size: 100%;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+.ph_nav{
+	height: 77px;
+	background-color: #ba261a;
+}
+.ph_nav .ph_nav_ul .ph_nav_index a,.ph_nav_ul .ph_nav_li {
+    position: relative;
+    float: left;
+    font-size: 25px;
+    line-height: 77px;
+    width: 430px;
+    text-align: center;
+    cursor: pointer;
+    color: #FFDCAB;
+}
+.ph_nav_li .ul{
+	display: none;
+	width: 200px;
+	position: absolute;
+	left: 260px;
+	top: 0;
+}
+.ph_nav_li .ul li{
+	float:left;
+	width: 90px;
+	font-size: 16px;
+	text-align: center;
+}
+.ph_nav_li .ul li a{
+	color: #ffdcab;
+}
+.ph_nav_li .ul li a:hover{
+	color: #ffffff;
+}
+.ph_nav_li:hover .ul{
+	display: block;
+}
+.ph_nav_li::after{
+	content: "";
+	width: 0;
+	height: 0;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-top: 10px solid red;
+	display: inline-block;
+	transition-duration: 0.75s ;
+}
+.ph_nav_li:hover::after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid red;
+    display: inline-block;
+    transition-duration: 0.75s ;
+}
+.footer_bg{
+	width: 100%;
+	height: 150px;
+	background: #ba261a;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.footer{
+	padding: 0;
+}
+.copy p{
+	margin: 0;
+	margin-top:-10px;
+	color: #ffffff;
+	font-size: 14px;
+	height: 130px;
+	line-height: 1.8em;
+	text-align: center;
+}

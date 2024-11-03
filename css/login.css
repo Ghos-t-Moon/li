@@ -1,0 +1,207 @@
+/*整体样式&&背景图引入*/
+html{
+	/* background: #fff url(../images/1.jpg) 50% 0 no-repeat; */
+	/* background-color: transparent; */
+
+	
+}
+body{
+	font-family: "Microsoft Yahei";
+	font-size: 12px;
+	margin: 0;
+	background: #fff url(../images/1.jpg) 50% 0 no-repeat;
+	/* background-size: 120%; */
+}
+/*清除默认样式*/
+ul{
+	padding: 0;
+	margin: 0;
+}
+ul li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;color: #f00;
+}
+/*清除输入框获得焦点时的边框*/
+input[type="text"]:focus,input[type="password"]:focus{
+	outline: none;
+}
+/*"党史学习教育网，欢迎您"样式*/
+h1{
+	margin: 80px auto 50px auto;
+	text-align: center;
+	color: #fff;
+	margin-left: -25px;
+	font-size: 35px;
+	font-weight: bold;
+	text-shadow: 0px 1px 1px #555;
+}
+/*登陆注册容器样式*/
+.login{
+	margin: 0 auto;
+	width: 370px;
+	border: 2px solid #eee;
+	border-bottom: none;
+	position: relative;
+}
+/*登录注册头部样式*/
+.header{
+	height: 50px;
+	border-bottom: 1px solid #e2e2e2;
+	position: relative;
+	font-family: "Microsoft Yahei";
+}
+/*登录注册头部文字整体样式*/
+.header .switch{
+	height: 45px;
+	position: absolute;
+	left: 60px;
+	bottom: 0;
+	font-size: 16px;
+}
+/*登录注册框样式设置*/
+.login{
+	border: 0;padding: 5px 0;
+	background: #fff;
+	margin: 0 auto;
+}
+/*登录注册头部文字间距样式*/
+.header .switch #switch_qlogin{
+	margin-right: 85px;
+}
+/*快速登陆&&快速注册未被选中时的样式*/
+.header .switch .switch_btn{
+	color: #999;
+	display: inline-block;
+	height: 45px;
+	line-height: 45px;
+	outline: none;
+}
+/*快速登陆&&快速注册选中时的样式*/
+.header .switch .switch_btn_focus{
+	color: #333;
+	display: inline-block;
+	height: 45px;
+	line-height: 45px;
+	outline: none;
+}
+/*按钮底线*/
+#switch_bottom{
+	position: absolute;
+	bottom: -1px;_bottom:-2px;
+	border-bottom: 2px solid #848484;
+}
+/*快速登陆内容居中*/
+.web_login .login_form{
+	width: 272px;
+	margin: 0 auto;
+}
+/*快速登陆文字（账号/密码设置）*/
+.web_login .input-tips{
+	float: left;
+	width: 50px;
+	height: 42px;
+	font-size: 16px;
+	line-height: 42px;
+	font-family: "Hiragino Sans GB","Microsoft Yahei";
+}
+/*快速登陆文本框样式*/
+.web_login .inputstyle{
+	width: 200px;
+	height: 38px;
+	padding-left: 5px;
+	line-height: 38px;
+	border: 1px solid #D7D7D7;
+	background: #fff;
+	color: #333;border-radius: 2px;
+	font-family: Verdana, Tahoma, Arial;
+	font-size: 16px;
+	ime-mode: disabled;
+}
+/*快速登陆内容样式*/
+.web_login .login_form{
+	margin-top: 30px;
+}
+.web_login .uinArea{
+	height: 60px;
+}
+/*快速注册容器样式*/
+.web_login .reg_form{
+	width: 300px;
+	margin: 0 auto;
+}
+/*快速注册文字样式*/
+.web_login .input-tips2{
+	padding-right: 5px;
+	width: 80px;
+}
+/*快速注册文字（用户名/密码/确认密码/QQ）*/
+.web_login .input-tips2{
+	float: left;
+	text-align: right;
+	padding-right: 10px;
+	height: 30px;
+	font-size: 16px;
+	margin-top: 10px;
+	clear: both;
+	line-height: 30px;
+	font-family: "Hiragino Sans GB","Microsoft Yahei";
+}
+/*快速注册文本框样式*/
+.web_login .inputstyle2{
+	width: 200px;
+	height: 34px;
+	padding-left: 5px;
+	line-height: 34px;
+	border: 1px solid #D7D7D7;
+	background: #fff;
+	color: #333;border-radius: 2px;
+	font-family: Verdana, Tahoma, Arial;
+	font-size: 16px;
+	ime-mode: disabled;
+}
+/*快速注册请注意格式的样式*/
+.cue{
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	border: 1px #CCCCCC solid;
+	margin-top: 10px;margin-bottom: 5px;
+	text-align: center;
+	font-family: "Hiragino Sans GB","Microsoft Yahei";
+}
+/*同意协议并注册按钮位置样式*/
+.web_login .inputOuter2{
+	width: 200px;
+	margin-top: 5px;
+	float: left;
+}
+/*登录按钮&&同意协议并注册按钮样式*/
+.button_blue{
+	display: inline-block;
+	height: 41px;border-radius: 4px;
+	background: #2795dc;
+	border: none;
+	cursor: pointer;
+	border-bottom: 3px solid #0078b3;
+	color: #fff;
+	font-size: 16px;
+	padding: 0 10px;
+	text-align: center;
+	outline: none;
+	font-family: "Microsoft Yahei",Arial,Helvetica,sans-serif;
+}
+/*注册协议按钮样式*/
+a.zcxy{
+	text-decoration: underline;line-height: 58px;margin-left: 15px;color: #959ca8;
+}
+/**推荐使用IE8及以上版本的IE浏览器或Chrome内核浏览器访问本站*/
+.jianyi{
+	text-align: center;
+	margin-top: 25px;
+	color: #B3B8C4;
+}
